@@ -1,0 +1,8 @@
+<tal:manager replace="structure provider:collage.ContentManager" />
+
+<tal:folder >
+
+    <tal:innerfade tal:replace="structure here/@@folder_innerfade_macro"/>
+
+</tal:folder>
+

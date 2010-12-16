@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.collage.innerfade">
+
+    <five:registerPackage package="." initialize=".initialize" />
+
+    <include package="Products.Collage" />
+
+    <browser:page
+        name="innerfade"
+        for="Products.ATContentTypes.content.folder.ATFolder"
+        permission="zope.Public"
+        template="templates/innerfade.pt"
+        class=".browser.InnerfadeCollageView"
+        layer="Products.Collage.interfaces.ICollageBrowserLayer"
+        />
+
+</configure>

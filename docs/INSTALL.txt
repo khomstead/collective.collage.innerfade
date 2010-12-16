@@ -1,0 +1,14 @@
+collective.collage.innerfade Installation
+=======================
+
+Using zc.buildout, add the following.
+
+ * Add ``collective.collage.innerfade`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        collective.collage.innerfade
+
+Note that this product will not show up in the quick installer.
