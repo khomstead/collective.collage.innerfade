@@ -26,6 +26,11 @@ Use buildout, or a similar method to install collective.collage.innerfade and th
 
 Obviously, the innerfade view will only be useful when it contains Image and Link instances. Check (http://pypi.python.org/pypi/collective.js.innerfade) for details.
 
+Screenshot
+----------
+
+.. image:: http://plone.org/products/collective.collage.innerfade/screenshot
+
 Development
 -----------
 
