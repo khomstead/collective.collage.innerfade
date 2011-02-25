@@ -16,7 +16,7 @@ Stable; almost used in a production environment :)
 Usage
 -----
 
-Use buildout, or a similar method to install collective.collage.innerfade and then (re)start your Plone instance. The zcml configuration will automatically get picked up and register the additional view for your Collage content. Note that you also need ``collective.js.innerfade`` for this module to function properly.
+The collective.collage.innerfade module will not show up in the quickinstaller. It seamlessly integrates into Products.Collage.  Use buildout, or a similar method to install collective.collage.innerfade and then (re)start your Plone instance. The zcml configuration will automatically get picked up and register the additional view for your Collage content. Note that you also need ``collective.js.innerfade`` for this module to function properly.  
 
 #. Create a Collage.
 #. Add rows and columns.
